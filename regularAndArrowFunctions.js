@@ -44,3 +44,14 @@ jonas.calcAge();
 
 //function get arguments keywords: this only in regular function
 //f expression
+//arguments keyword
+const addExpression = function (a, b) {
+  console.log(arguments);
+  return a + b;
+};
+addExpression(2, 1);
+addExpression(2, 6, 9);
+var addArrows = (a, b) => {
+  return a + b;
+};
+addArrows(2, 3, 4);
